@@ -1,0 +1,216 @@
+.miracle-loader {
+    display: none;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background: url(../images/Preloader.gif) center no-repeat #fffffff0;
+    left: 0;
+    right: 0;
+    top: 0%;
+}
+
+.inside.miracle-items-main h2 {
+    margin-top: 0px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #555555;
+    margin-bottom: 30px;
+}
+.inside.miracle-items-main .miracle-item-wrapper h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 14px;
+    line-height: normal;
+    padding: 0px 10px;
+}
+.inside.miracle-items-main .miracle-item-wrapper {
+    width: 25%;
+    float: left;
+    padding: 0;
+    margin-bottom: 30px;
+}
+.miracle-item-wrapper .miracle-item-info p {
+    font-size: 12px;
+    padding: 0px 8px;
+    line-height: normal;
+}
+.inside.miracle-items-main .miracle-item-wrapper img {
+    max-width: 100%;
+    object-fit: cover;
+    height: auto;
+    width: 150px;
+    display: block;
+}
+ 
+div#content h2.nav-tab-wrapper a {
+    background-color: #7c7c7c;
+    border: none;
+    border-right: 2px solid#fff;
+    font-size: 16px;
+    color: #fff;
+    padding: 7px 20px !important;
+    font-weight: 300 !important;
+    font-family: arial;
+    margin: 0px;
+    
+}
+h2.nav-tab-wrapper {
+    border: none !important;
+}
+div#content .inside {
+    background-color: #f1f1f1;
+    border: 13px solid#fff;
+    padding: 30px;
+    box-shadow: 0px 2px 8px 0px #ccc;
+}
+.inside h3 {
+    margin-top: 0px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #555555;
+    margin-bottom: 30px;
+}
+.inside p {
+    font-size: 14px;
+    color: #555555;
+    font-weight: 400;
+}
+div#content a.nav-tab.nav-tab-active {
+    background-color: #51a7ff;
+    color: #fff;
+    outline: none;
+}
+div#content a.nav-tab.nav-tab-active:hover, a.nav-tab.nav-tab-active:focus {
+    outline: none;
+    background-color: #51a7ff !important;
+}
+div#content a.nav-tab.nav-tab:hover {
+    background-color: #51a7ff !important;
+}
+div#content a.nav-tab:focus {
+    outline: none;
+    box-shadow: none;
+}
+div#content .nav-tab-wrapper:not(.wp-clearfix):after {
+    display: none;
+}
+.inside.miracle-items-main {
+    width: auto;
+    float: left;
+}
+.miracle-row {
+    width: 100%;
+    float: left;
+}
+.miracle-item-img {
+    margin-bottom: 10px;
+}
+form#miracleImportItems .miracle-item-wrapper .miracle-item-info input.miracle-item-import {
+    float: left;
+    margin-top: 3px;
+    margin-right: 5px;
+}
+.inside.miracle-items-main .miracle-item-count {
+    color: #4F8A10;
+    background-color: #DFF2BF;
+    font-size: 20px;
+    padding: 14px 10px;
+    margin-bottom: 26px;
+}
+form#miracleImportItems .miracle-select-all-wrapper {
+    width: 100%;
+    float: left;
+	margin-bottom: 32px;
+}
+
+form#miracleImportItems .miracle-select-all-wrapper label {
+    font-size: 20px;
+}
+.miracle-import-top-wrapper button.miracle-import-btn,.miracle-import-bottom-wrapper button.miracle-import-btn {
+    background-color: #51a7ff;
+    color: #fff;
+    padding: 12px 28px;
+    cursor: pointer;
+    font-size: 18px;
+    border: 1px solid#eee;
+    line-height: normal;
+    vertical-align: middle;
+}
+.miracle-import-top-wrapper button.miracle-import-btn:hover, .miracle-import-top-wrapper button.miracle-import-btn:focus,.miracle-import-bottom-wrapper button.miracle-import-btn:hover, .miracle-import-bottom-wrapper button.miracle-import-btn:focus {
+	background-color: #23282d;
+}
+.miracle-import-top-wrapper button.miracle-import-btn {
+    float: right;
+    margin-bottom: 30px;
+    margin-top: -50px;
+    padding: 9px 10px;
+    font-size: 17px;
+}
+
+.miracle-dashboard-content div {
+    /* margin: 0px 10px; */
+}
+
+.miracle-welcome-content {
+    margin-bottom: 40px;
+}
+
+.miracle-dashboard-how-work-content h4, .miracle-dashboard-about-product-content h4, .mracle-dashboard-about-us-content h4, .miracle-dashboard-support-content h4, .miracle-dashboard-follow-us-content h4 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.miracle-dashboard-how-work-content img.how_works {
+    text-align: center;
+    width: 100%;
+    display: block;
+    max-width: 400px;
+    margin-left: 30%;
+    margin-bottom: 30px;
+}
+
+.miracle-dashboard-how-work-content ul li {list-style: disc;font-size: 15px;}
+
+.miracle-dashboard-how-work-content strong p {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.miracle-dashboard-about-product-content h6 {
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.miracle-dashboard-about-product-content ul.miracle-our-product-cats li {
+    list-style: disc;
+    font-size: 15px;
+}
+
+img.miracle-header-logo {
+    max-width: 300px;
+    width: 100%;
+    height: 70px;
+}
+
+.miracle-dashboard-about-product-content ul.miracle-our-product-cats {
+    margin-left: 20px;
+}
+
+.miracle-dashboard-how-work-content ul {
+    margin-left: 18px;
+}
+
+.mracle-dashboard-about-us-content img {
+    margin: 15px 0px 20px 0px;
+    margin-left: 20%;
+}
+.miracle-col-12 { width:100% !important; padding:0px 15px; float: left;}
+.miracle-col-8 { width:66.66% !important; padding:0px 15px; float: left;}
+.miracle-col-6 { width:50% !important; padding:0px 15px; float: left;}
+.miracle-col-4 { width:33.33% !important; padding:0px 15px; float: left;}
+.miracle-col-3 { width:25% !important; padding:0px 15px; float: left;}
+.miracle-col-2 { width:16.66% !important; padding:0px 15px; float: left;}
+.miracle-row { margin:0px -15px;}
